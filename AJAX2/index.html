@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Boyd Hoogkamer">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div id = "vraag">
+      <h3>BMI AJAX 2019</h3><br>
+      <div id = "input">
+        Vul je gewicht in (in kg):<br>
+        <input type="text" size="20" id="gewicht"><br>
+        Vul je lengte in (in cm):<br>
+        <input type="text" size="20" id="lengte"><br>
+      </div>
+      <input type="button" value="Bereken BMI" id="bereken">
+    </div>
+    <div id = "resultaat"></div>
+    <div class="footer">
+      <div class="footertext">
+        <p>BMI calculator</p>
+      </div>
+    <div class="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+              <img class="link" src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5">
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+              <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+            </a>
+          </div>
+    <script src="ajax.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
